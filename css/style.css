@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(230, 230, 230, 0.82);
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.texto-pequeno {
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#titulo-header p {
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#menu {
+    display: flex;
+    gap: 10px;
+}
+
+#menu p {
+    color: black;
+    font-size: 12px;
+}
+
+#hero {
+    background-color: rgb(181, 204, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#texto-hero h1 {
+    font-size: 80px;
+}
+
+#texto-hero p {
+    font-size: 16px;
+}
+
+#img-hero img {
+    width: 350px;
+    padding: 20px;
+}
+
+#galeria-texto {
+    margin-top: 50px;
+}
+
+.card {
+    background-color: white;
+    width: 30%;
+    margin-top: 20px;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#galeria-imgs {
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card-texto {
+    padding: 10px;
+}
+
+footer hr {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
